@@ -1,0 +1,216 @@
+
+html {
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #131c46;
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+ /*    border-bottom: 2px solid rgb(36, 36, 36); */
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background-image:url(./Imagenes/pexels-olia-danilevich-4974912.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home {
+    width: 100%;
+    height: 50vh;
+    background-color: #1c285c83;
+}
+.home .header-saludo {
+    padding-top: 120px;
+    color: white;
+    font-size: 1.3rem;
+}
+.first-name {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 3rem;
+    background: linear-gradient(200deg, #d25fe4 30%, #f5576c 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.last-name {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.1rem;
+    letter-spacing: 0.6em;
+    position: absolute;
+    left: calc(50% - 90px);
+}
+.descripcion {
+    padding-top: 25px;
+    font-size: 0.9rem;
+    color: white;
+    letter-spacing: 0.1em;
+    padding-bottom: 60px;
+}
+.header-cv {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(200deg, #d25fe4 30%, #f5576c 80%);
+    padding: 8px;
+    border-radius: 8px;
+}
+main .descripcion1 {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.descripcion1 {
+    background-color: #11193a;
+    padding: 20px;
+}
+.descripcion1 .main-des {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+.main-des h2 {
+    font-size: 2.6rem;
+    color:white;
+}
+.main-des .p1 {
+    font-size: 1.5rem;
+    color: #d25fe4;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.main-des .p2 {
+    font-size: 1.5rem;
+    color: #E7F5FF;
+}
+.descripcion1 .main-img {
+    width: 100%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+
+}
+.main-img img {
+    width: 200px;
+    min-width: 50px;
+    min-height: 50px;
+}
+.descripcion1 .main-progres {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+}
+.habilidades {
+    color:#d25fe4;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main-progres .par{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 15px;
+    color: white;
+}
+.main-progres .progres {
+    width: 140px;
+    height: 7px;
+    border-radius: 3px;
+    background: linear-gradient(200deg, #d25fe4 50%, #f5576c 50%);
+}
+.motivation {
+    background: linear-gradient(200deg, #d25fe4 30%, #f5576c 80%);
+    width: 100%;
+    min-height: 15vh;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
+.motivation h2 {
+    font-size: 2rem;
+    color: white;
+}
+.motivation p {
+    color: white;
+    font-size: 1.4rem;
+}
+.proyects {
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #11193a ;
+}
+.container-proyects { 
+    padding: 0 auto;
+}
+.proyects h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container-card img {
+    width: 200px;
+    margin-top: 40px;
+    border: 3px solid #201E1C;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(3, 3, 3, 0.16);
+}
+.proyects p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+footer {
+    background-image: url(./Imagenes/pexels-danny-meneses-943096.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 30vh;
+    text-align: center;
+}
+footer img {
+    width: 80px;
+    padding-top: 50px;
+}
+.footer-container {
+    width: 100%;
+    min-height: 40vh;
+    background-color: #0f1531a2;
+    padding-bottom: 50px;
+}
+.footer-container p {
+    color: white;
+    padding-top: 10px;
+}
+.footer-container a {
+    color: white;
+    text-decoration: none;
+}
