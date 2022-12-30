@@ -24,10 +24,10 @@ main .descripcion1 {
 }
 .descripcion1 .main-des {
     width: 33.33%;
-    text-align: start;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    place-content: flex-start;
+    place-content: center;
 }
 .main-des h2 {
     font-size: 2.6rem;
@@ -55,11 +55,10 @@ main .descripcion1 {
 }
 .descripcion1 .main-progres {
     width: 33.33%;
-    text-align: center;
     display: flex;
     flex-direction: column;
     place-content: center;
-    place-items: center;
+    place-items: flex-start;
 }
 .main-progres .par{
     font-size: 1.5rem;
