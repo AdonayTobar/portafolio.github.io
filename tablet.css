@@ -24,10 +24,10 @@ main .descripcion1 {
 }
 .descripcion1 .main-des {
     width: 33.33%;
-    text-align: end;
+    text-align: start;
     display: flex;
     flex-direction: column;
-    place-content: center;
+    place-content: flex-start;
 }
 .main-des h2 {
     font-size: 2.6rem;
@@ -45,7 +45,7 @@ main .descripcion1 {
     width: 33.33%;
     display: flex;
     place-content: center;
-    place-items: flex-start;
+    place-items: center;
 
 }
 .main-img img {
